@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animate | Studio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="/css/contact.css">
+  <link rel="icon" href="./images/mic.jpg" />
+</head>
+<body>
+     <!-- Navbar -->
+     <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Animate Studio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="tutorial.html">Courses</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Contact us -->
+  <div class="contact-page">
+    <h2>Get in touch</h2>
+    <div class="contact-info">
+      <div class="item">
+        <i class="icon fas fa-home"></i>
+        Nairobi, Kenya
+      </div>
+      <div class="item">
+        <i class="icon fas fa-phone"></i>
+        +254711 962 319
+      </div>
+      <div class="item">
+        <i class="icon fas fa-envelope"></i>
+        info@animatestudio.co.ke
+      </div>
+      <div class="item">
+        <i class="icon fas fa-clock"></i>
+        Mon - Fri 8:00 AM to 6:00 PM
+      </div>
+    </div>
+    <form name="contact" netlify-honeypot="bot-field" method="POST" data-netlify="true" class="contact-form">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+      </p>
+      <input type="text" class="textb" placeholder="Your Name">
+      <input type="email" class="textb" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <input type="submit" class="btn" value='Send'>
+    </form>
+  </div>
+</body>
+</html>
