@@ -6,21 +6,21 @@ body {
 .slider {
   width: 800px;
   height: 400px;
-  background: url("../images/podcast.jpg");
+  background: url("https://images.pexels.com/photos/918281/pexels-photo-918281.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   margin: 100px auto;
   animation: slide 20s infinite;
 }
 @keyframes slide {
   25% {
-    background: url("../images/podcast.jpg");
+    background: url("https://images.pexels.com/photos/65128/pexels-photo-65128.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   }
   50% {
-    background: url("../images/s2.jpg");
+    background: url("https://images.pexels.com/photos/67654/pexels-photo-67654.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   }
   75% {
-    background: url("../images/s3.jpg");
+    background: url("https://images.pexels.com/photos/274939/pexels-photo-274939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   }
   100% {
-    background: url("../images/s1.jpg");
+    background: url("https://images.pexels.com/photos/3062545/pexels-photo-3062545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   }
 }
